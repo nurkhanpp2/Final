@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshFromFarm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#partners">Our Partners</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#social">Social Links</a></li>
+        </ul>       
+    </nav>
+
+<section id="home" style="background: url('background-image.jpg') no-repeat center center/cover; height: 100vh; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; padding-top: 50px; color: white; text-align: center;">
+    <h1 style="font-size: 3rem; font-weight: bold;">FreshFromFarmkz</h1>
+    <p class="tagline" style="font-family: 'Playfair Display', serif; font-size: 1.5rem; max-width: 600px; margin: 20px auto;">
+        "Connecting local farmers with your table—bringing you the freshest, healthiest, and most sustainable products for a better tomorrow."
+    </p>
+    <div class="cooperation" style="position: absolute; bottom: 50px; right: 50px; text-align: right;">
+        <p>We invite farms and producers to collaborate, offering exclusive benefits and discounts for our partners.</p>
+        <p>Please leave your request at <a href="mailto:collaboration@freshfromfarmkz.com" style="color: #FFD700; text-decoration: none;">collaboration@freshfromfarmkz.com</a></p>
+    </div>
+</section>
+
+<section id="about" style="background: #faf5f0;">
+    <img src="farm-building.jpg" alt="Farm Building">
+    <div class="about-content">
+        <h2>About Us</h2>
+        <p>FreshFromFarmkz connects local farmers and buyers, delivering fresh, natural products directly to your table. Our mission is to support farmers and provide quality food for everyone.</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Learn More</a>
+    </div>
+    <img src="company-logo.jpg" alt="Company Logo" class="logo">
+</section>
+
+<section id="partners" style="background: #f9f6ef;">
+    <h2>Our Partners</h2>
+    <div class="partners-container">
+        <div class="partner-item"><img src="partner1.png" alt="OKMX"><p>OXMK delivers an array of fresh, seasonal fruits grown under ideal conditions to ensure the highest quality. From juicy apples to vibrant berries, they provide a sweet and healthy addition to your meals.</p></div>
+        <div class="partner-item"><img src="partner2.png" alt="MetaFarm"><p>MetaFarm offers a wide range of high-quality meat, including beef, lamb, poultry, and pork. Committed to ethical farming and eco-friendly practices, MetaFarm ensures fresh and flavorful products directly from the farm to your table.</p></div>
+        <div class="partner-item"><img src="partner3.png" alt="Sun-Bee Altai"><p>Sun-Bee Altai produces premium organic honey, collected from the pristine forests and meadows of the Altai Mountains. Known for its unique taste and health benefits, their honey is a favorite among locals and a symbol of natural purity.</p></div>
+        <div class="partner-item"><img src="partner4.png" alt="Rodina Agrofirm"><p>Rodina Agrofirm is a trusted supplier of high-quality milk, cheese, yogurt, and other dairy products. Located in the heart of Kazakhstan, they take pride in their sustainable farming practices and fresh, nutrient-rich offerings for families across the country.</p></div>
+    </div>
+</section>
+
+<section id="products" style="background: #fff9e6;">
+    <h2>Products</h2>
+
+    <h3>Dairy Products</h3>
+    <div class="product-category">
+        <div class="product-item">
+            <img src="dairy1.jpg" alt="Homemade Cheese"><p>Homemade Cheese - 1600 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="dairy2.jpg" alt="Butter"><p>Butter - 6000 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="dairy3.jpg" alt="Milk"><p>Milk - 800 tg (price per 1 liter)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="dairy4.jpg" alt="Homemade Cottage Cheese"><p>Homemade Cottage Cheese - 1200 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+    </div>
+
+    <h3>Meat Products</h3>
+    <div class="product-category">
+        <div class="product-item">
+            <img src="meat1.jpg" alt="Beef"><p>Beef - 5000 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="meat2.jpg" alt="Lamb"><p>Lamb - 7000 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="meat3.jpg" alt="Whole Chicken"><p>Whole Chicken - 3000 tg (price per 1 unit)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="meat4.jpg" alt="Pork"><p>Pork - 4000 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+    </div>
+
+    <h3>Fruits and Berries</h3>
+    <div class="product-category">
+        <div class="product-item">
+            <img src="fruit1.jpg" alt="Apples"><p>Apples - 1000 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="fruit2.jpg" alt="Grapes"><p>Grapes - 1200 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="fruit3.jpg" alt="Peaches"><p>Peaches - 1500 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="fruit4.jpg" alt="Strawberries"><p>Strawberries - 1800 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+    </div>
+
+    <h3>Honey Products</h3>
+    <div class="product-category">
+        <div class="product-item">
+            <img src="honey1.jpg" alt="Altai Honey"><p>Altai Honey - 2500 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="honey2.jpg" alt="Floral Honey"><p>Floral Honey - 3000 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="honey3.jpg" alt="Mountain Honey"><p>Mountain Honey - 3500 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+        <div class="product-item">
+            <img src="honey4.jpg" alt="Linden Honey"><p>Linden Honey - 3200 tg (price per 1 kg)</p>
+            <button onclick="openPurchaseModal()">Add to Cart</button>
+            <a href="https://wa.me/official_whatsapp" target="_blank">Contact on WhatsApp</a>
+        </div>
+    </div>
+</section>
+
+<section id="feedback" style="background: #eafaf1; padding: 50px 20px; text-align: center;">
+    <h2 style="font-size: 2.5rem; margin-bottom: 30px;">Customer Feedback</h2>
+    <div class="feedback" style="margin-bottom: 30px;">
+        <img src="tamby-masaev.jpg" alt="Tamby Masaev" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+        <p style="font-size: 1.2rem; font-style: italic; max-width: 600px; margin: 0 auto;">"This service is amazing! The products are always fresh, and the delivery is so fast. Definitely my go-to for farm-to-table produce."</p>
+        <p style="margin-top: 10px; font-weight: bold;">- Tamby Masaev</p>
+    </div>
+    <div class="feedback" style="margin-bottom: 30px;">
+        <img src="snoop-dogg.jpg" alt="Snoop Dogg" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+        <p style="font-size: 1.2rem; font-style: italic; max-width: 600px; margin: 0 auto;">"Yo, this is dope! I’ve never had such quality produce. The honey is fire, and the milk? Straight outta heaven!"</p>
+        <p style="margin-top: 10px; font-weight: bold;">- Snoop Dogg</p>
+    </div>
+    <div class="feedback" style="margin-bottom: 30px;">
+        <img src="emmanuel-macron.jpg" alt="Emmanuel Macron" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+        <p style="font-size: 1.2rem; font-style: italic; max-width: 600px; margin: 0 auto;">"C’est magnifique! The quality of the products reminds me of the finest markets in France. Exceptional!"</p>
+        <p style="margin-top: 10px; font-weight: bold;">- Emmanuel Macron</p>
+    </div>
+
+<section id="social" style="background: linear-gradient(to right, #f7f7f7, #eafaf1); padding: 50px; text-align: center;">
+    <h2 style="font-size: 2.5rem; margin-bottom: 30px; color: #000;">Contact & Social Links</h2>
+    <p style="font-size: 1.2rem; margin-bottom: 10px; color: #000;">Email: <a href="mailto:info@freshfarmcompany.com" style="color: #000; text-decoration: none;">info@freshfarmcompany.com</a></p>
+    <p style="font-size: 1.2rem; margin-bottom: 30px; color: #000;">Phone: +7-747-633-67-82</p>
+    <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px;">
+        <li><a href="https://instagram.com" target="_blank" style="text-decoration: none; font-size: 1.5rem; color: #C13584;">Instagram</a></li>
+        <li><a href="https://t.me" target="_blank" style="text-decoration: none; font-size: 1.5rem; color: #0088cc;">Telegram</a></li>
+        <li><a href="https://vk.com" target="_blank" style="text-decoration: none; font-size: 1.5rem; color: #4c75a3;">VK</a></li>
+        <li><a href="https://twitter.com" target="_blank" style="text-decoration: none; font-size: 1.5rem; color: #1DA1F2;">Twitter</a></li>
+        <li><a href="https://ok.ru" target="_blank" style="text-decoration: none; font-size: 1.5rem; color: #ee8208;">Odnoklassniki</a></li>
+        <li><a href="https://facebook.com" target="_blank" style="text-decoration: none; font-size: 1.5rem; color: #4267B2;">Facebook</a></li>
+    </ul>
